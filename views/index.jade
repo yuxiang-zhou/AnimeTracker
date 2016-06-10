@@ -1,50 +1,28 @@
 extends layout
 
-block content
-    .container.container-index
-        #myCarousel.carousel.slide(data-ride="carousel")
-            ol.carousel-indicators
-                li.active(data-target="#myCarousel", data-slide-to="0", class="active")
-                li(data-target="#myCarousel", data-slide-to="1")
-                li(data-target="#myCarousel", data-slide-to="2")
-            .carousel-inner
-                .item.active
-                    img(src='/images/index_cover1.jpg', alt='First')
-                    .carousel-caption
-                        h1 Example headline.
-                        p 
-                            Note: If you're viewing this page via a 
-                            | <code>file://</code> 
-                            | URL, the "next" and "previous" Glyphicon buttons on the left and right might not load/display properly due to web browser security rules.
-                        p
-                            a.btn.btn-lg.btn-primary(href="#",role="button") Sign up today
-                .item
-                    img(src='/images/index_cover2.jpg', alt="")
-                    .carousel-caption
-                        h1 Another example headline.
-                        p 
-                            Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
-                        p
-                            a.btn.btn-lg.btn-primary(href="#",role="button") Learn more
-                .item
-                    img(src='/images/index_cover3.jpg', alt="")
-                    .carousel-caption
-                        h1 One more for good measure.
-                        p 
-                            Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
-                        p
-                            a.btn.btn-lg.btn-primary(href="#",role="button") Browse gallery
-            a.left.carousel-control(href="#myCarousel",role="button",data-slide="prev")
-                span.glyphicon.glyphicon-chevron-left
-            a.right.carousel-control(href="#myCarousel",role="button",data-slide="next")
-                span.glyphicon.glyphicon-chevron-right
+block stylesheet
+  //- dependencies
+  link(rel='stylesheet', href='/bower_components/angular-bootstrap/ui-bootstrap-csp.css')
+  
+  //- application
+  link(rel='stylesheet', href='/stylesheets/style.css')
 
-        #anime_container.container.marketing
+block content
+  app(ng-app='AnimeTracker')
+    main(ui-view)
 
 block script
-    script(src='/javascripts/home_page.js')
-    script(src='http://pstatic.xunlei.com/js/thunderBatch.js')
-
-
-
-      
+  //- dependencies
+  script(src='/bower_components/angular/angular.min.js')
+  script(src='/bower_components/angular-animate/angular-animate.js')
+  script(src='/bower_components/angular-touch/angular-touch.min.js')
+  script(src='/bower_components/angular-route/angular-route.min.js')
+  script(src='/bower_components/angular-ui-router/release/angular-ui-router.min.js')
+  script(src='/bower_components/angular-bootstrap/ui-bootstrap.min.js')
+  script(src='/bower_components/angular-bootstrap/ui-bootstrap-tpls.min.js')
+  
+  //- application
+  script(src='/javascripts/services/dataService.js')
+  script(src='/javascripts/app.js')
+  script(src='/javascripts/controllers/indexCtrl.js')
+  script(src='/javascripts/directives/animemodel/anime.js')

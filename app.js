@@ -5,14 +5,6 @@ var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 
-// Database
-var mongo = require('mongoskin');
-var db = mongo.db("mongodb://localhost:27017/animedb", {native_parser:true});
-
-var routes = require('./routes/index');
-var users = require('./routes/users');
-var animes = require('./routes/animes');
-
 var app = express();
 
 // view engine setup
@@ -27,15 +19,8 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
-// Make our db accessible to our router
-app.use(function(req,res,next){
-    req.db = db;
-    next();
-});
-
-app.use('/', routes);
-app.use('/users', users);
-app.use('/animes', animes);
+app.use('/', require('./routes/index'));
+app.use('/api', require('./routes/api'));
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {

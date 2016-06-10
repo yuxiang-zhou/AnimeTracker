@@ -1,0 +1,9 @@
+<div>
+  <uib-accordion close-others="oneAtATime">
+    <uib-accordion-group heading="{{anime.title}}" ng-click="loaddetails()">
+      <ul>
+        <li ng-repeat='(num, vlist) in anime.videos'>{{num}}:<a href="{{vlist[0].link}}">download</a></li>
+      </ul>
+    </uib-accordion-group>
+  </uib-accordion>
+</div>

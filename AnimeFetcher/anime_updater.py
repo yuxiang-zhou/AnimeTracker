@@ -7,96 +7,186 @@ import json
 import threading
 import urllib2
 import time
+import itertools
+import numpy as np
 from bs4 import BeautifulSoup
-from pymongo import Connection
+from pymongo import MongoClient
 import datetime
+from tools import *
+from difflib import SequenceMatcher
 
-import configparser
 
 reload(sys)
 sys.setdefaultencoding('utf-8')
 
-num_retry = 12
+num_retry = 1
 period = int(3600*12)
 
-con = Connection()
+con = MongoClient('178.62.38.12')
 db = con.animedb
-animelist = db.animelist
-animes = db.animes
+animesDB = db.animes
 
 
-anime_base_url = 'http://wt.78land.com/ctlist/'
-anime_base_download = 'http://wt.78land.com/ctdown/'
-anime_list_url = anime_base_url + 'all.htm'
+# anime_base_url = 'http://share.dmhy.org/topics/list/sort_id/2/page/{}'
+anime_base_url = 'http://share.dmhy.org/topics/list/page/{}?keyword=%E5%9C%A8%E4%B8%8B%E5%9D%82%E6%9C%AC&sort_id=2&team_id=0&order=date-desc'
 
-def get_url_content(url):
-    anime_doc = ""
-    retry = num_retry
-    while(retry > 0):
+
+
+def parseTimestamp(ts):
+    return datetime.datetime.strptime(ts.find('span').text, '%Y/%m/%d %H:%M')
+
+
+def parseCategory(cat):
+    if cat.find('a').attrs["class"][0] == 'sort-2':
+        nCat = 0
+    elif cat.find('a').attrs["class"][0] == 'sort-31':
+        nCat = 1
+    else:
+        nCat = -1
+
+    return nCat
+
+
+def parseMagnet(link):
+    return link.find('a').attrs['href']
+
+
+def parseTitle(title):
+    print title
+    title_str = title.find_all('a')[-1].text.strip()
+
+
+    spliter = [u'\u3010', u'\u3011', '[',']']
+
+    data = []
+    index = 0
+    for j,c in enumerate(title_str):
+        if c in spliter:
+            temp = title_str[index:j]
+            if len(temp) > 0:
+                data.append(temp)
+
+            index = j+1
+
+    index = -1
+    num = -1
+    for j,d in enumerate(data):
         try:
-            anime_req = urllib2.Request(url)
-            anime_doc = urllib2.urlopen(anime_req).read()
-            retry = 0
+            num = int(d)
+            index = j
+            break
         except:
-            retry = retry - 1
             pass
 
-    return anime_doc
+    if num > -1:
+        title_str = reduce(lambda x,y:x+' '+y, data[1:index], '')
+        title_str = Converter('zh-hans').convert(title_str.decode('utf-8'))
+        title_str = title_str.encode('utf-8')
+        title_str = title_str.split('\xe6\x96\xb0\xe7\x95\xaa')[-1].strip()
 
-def parse_download_link(url):
-    dl_doc = get_url_content(url)
+    return [title_str, num]
 
-    dlParse = BeautifulSoup(dl_doc)
-    links = dlParse.find_all("a",href = True)
-    linkList = []
-    for link in links:
-        dl_link = link.get("href")
-        if dl_link[:7] == "thunder":
-            linkList.append(dl_link)
+def parseSize(size):
+    return size.text
+
+# data format
+# {
+#     title
+#     [titles]
+#     timestamp
+#     [videos]
+#         [nums]
+#             [downloads]
+#                 link
+#                 size
+#     [batchdownloads]
+# }
+def upsertVideo(title, num, link, size, timestamp):
+    num = str(num)
+    entries = animesDB.find({},{'title':1, 'titles': 1, 'timestamp': 1})
+
+    isFound = False
+    video = None
+    for entry in entries:
+        for t in entry['titles']:
+            ratio = SequenceMatcher(None, title, t.encode('utf8')).ratio()
+            if ratio > 0.4:
+                isFound = True
+                video = entry
+                break
+
+        if isFound:
+            if  timestamp < entry['timestamp']:
+                return
+            break
+
+    if isFound:
+        anime = animesDB.find_one({'_id':video['_id']})
+        # update timestamp
+        anime['timestamp'] = timestamp
+
+        # update video list
+        if not anime['videos'].has_key(num):
+            anime['videos'][num] = []
+
+        if not link in [v['link'] for v in anime['videos'][num]]:
+            anime['videos'][num].append({'link':link, 'size': size})
+
+        # update title
+        titles = [t.encode('utf8') for t in anime['titles']]
+        ratios = map(lambda x: SequenceMatcher(None, title, x).ratio(), titles)
+        lengthes = [len(t) for t in titles]
+        if not np.max(ratios) == 1:
+            anime['titles'].append(title)
+            if len(title) < np.min(lengthes):
+                anime['title'] = title
+
+        animesDB.update({'_id':video['_id']},anime)
+    else:
+        result = animesDB.insert_one({
+            'title': title,
+            'titles': [title],
+            'timestamp': timestamp,
+            'videos': {
+                num: [{'link':link, 'size': size}]
+            }
+        });
 
 
-    return linkList
 
-def parse_anime(url, name, anime_id):
-    anime_doc = get_url_content(url)
-    animeParse = BeautifulSoup(anime_doc)
-    animeVideos = animeParse.find_all("td", attrs={"width":"200", "height":"30"})
-    for videoParse in animeVideos:
-        a_tag = videoParse.a
-        video_name = a_tag.string
-        video_download_url = anime_base_download + a_tag.get('href').rpartition('/')[-1]
-        video_download_link = parse_download_link(video_download_url)
-        video = animes.find_one({"name":video_name})
-        if video == None:
-            animes.insert({"category":anime_id,"name":video_name,"dl_url":video_download_link,"update_at":datetime.datetime.now()})
-        print 'Updating Video: {}'.format(video_name)
 
 def run_task():
-    # retrive anime list 
-    html_doc = get_url_content(anime_list_url)
-    # parse list
-    htmlParser = BeautifulSoup(html_doc)
-    animeListHtml = htmlParser.find_all("a",attrs={"target": "_blank"})
-    for animeHtml in animeListHtml:
-        animeName = animeHtml.string
-        animeUrl = anime_base_url + animeHtml.get('href')
-        anime = animelist.find_one({"name":animeName})
-        animeID = 0
-        if anime == None:
-            animeID = animelist.insert({"name":animeName, "url":animeUrl})
-        else:
-            animeID = anime["_id"]
-        print 'Updating {}'.format(animeName)
-        parse_anime(animeUrl, animeName, animeID)
+    for page in itertools.count(1):
+        page_url = anime_base_url.format(page)
+        page_html = BeautifulSoup(safe_request(page_url), "html.parser")
+        table_html = page_html.find("table", {"id": "topic_list"})
+
+        if not table_html:
+            break
+
+        entrys_html = table_html.find('tbody').find_all("tr")
+
+        for entry in entrys_html:
+            timestamp, category, title, magnet, size, _, _, _, _ = entry.find_all('td')
+            print page
+            timestamp = parseTimestamp(timestamp)
+            category = parseCategory(category)
+            title, num = parseTitle(title)
+            magnet = parseMagnet(magnet)
+            size = parseSize(size)
+
+            if num > -1 and len(title) > 0:
+                upsertVideo(title, num, magnet, size, timestamp)
 
 
 
-while(True):
-    # DBManager.connect(dbconfig['username'], dbconfig['password'], dbconfig['dbname'])
+if __name__ == '__main__':
+    while(True):
+        # DBManager.connect(dbconfig['username'], dbconfig['password'], dbconfig['dbname'])
 
-    print("Updating Anime List")
-    run_task()
-    print("Update Done")
+        print("Updating Anime List")
+        run_task()
+        print("Update Done")
 
-    # DBManager.disconnect()
-    time.sleep(period)
+        # DBManager.disconnect()
+        time.sleep(period)

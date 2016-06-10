@@ -1,0 +1,20 @@
+<div ng-controller="indexCtrl">
+  <div style="height: 400px">
+    <uib-carousel active="active" interval="myInterval" no-wrap="noWrapSlides">
+      <uib-slide ng-repeat="slide in slides track by slide.id" index="slide.id">
+        <img ng-src="{{slide.image}}" style="margin:auto;">
+        <div class="carousel-caption">
+          <p>{{slide.text}}</p>
+        </div>
+      </uib-slide>
+    </uib-carousel>
+  </div>
+
+  <div class='container animelist'>
+    <div class="row" ng-repeat="temp in animes" ng-if="$index % 4 == 0">
+      <div class="col-lg-3" ng-repeat="anime in animes.slice($index, $index + 4)">
+        <anime anime=anime></anime>
+      </div>
+    </div>
+  </div>
+</div>
