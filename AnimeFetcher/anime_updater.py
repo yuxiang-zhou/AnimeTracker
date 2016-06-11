@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+# -*- coding: utf-8 -*-
 
 import sys
 import BaseHTTPServer
@@ -27,8 +27,8 @@ db = con.animedb
 animesDB = db.animes
 
 
-# anime_base_url = 'http://share.dmhy.org/topics/list/sort_id/2/page/{}'
-anime_base_url = 'http://share.dmhy.org/topics/list/page/{}?keyword=%E5%9C%A8%E4%B8%8B%E5%9D%82%E6%9C%AC&sort_id=2&team_id=0&order=date-desc'
+anime_base_url = 'http://share.dmhy.org/topics/list/sort_id/2/page/{}'
+# anime_base_url = 'http://share.dmhy.org/topics/list/page/{}?keyword=%E5%9C%A8%E4%B8%8B%E5%9D%82%E6%9C%AC&sort_id=2&team_id=0&order=date-desc'
 
 
 
@@ -52,7 +52,6 @@ def parseMagnet(link):
 
 
 def parseTitle(title):
-    print title
     title_str = title.find_all('a')[-1].text.strip()
 
 
@@ -102,6 +101,7 @@ def parseSize(size):
 #     [batchdownloads]
 # }
 def upsertVideo(title, num, link, size, timestamp):
+    print num,title
     num = str(num)
     entries = animesDB.find({},{'title':1, 'titles': 1, 'timestamp': 1})
 
@@ -116,14 +116,13 @@ def upsertVideo(title, num, link, size, timestamp):
                 break
 
         if isFound:
-            if  timestamp < entry['timestamp']:
-                return
             break
 
     if isFound:
         anime = animesDB.find_one({'_id':video['_id']})
         # update timestamp
-        anime['timestamp'] = timestamp
+        if anime['timestamp'] < timestamp:
+            anime['timestamp'] = timestamp
 
         # update video list
         if not anime['videos'].has_key(num):
@@ -131,6 +130,8 @@ def upsertVideo(title, num, link, size, timestamp):
 
         if not link in [v['link'] for v in anime['videos'][num]]:
             anime['videos'][num].append({'link':link, 'size': size})
+        else:
+            return False
 
         # update title
         titles = [t.encode('utf8') for t in anime['titles']]
@@ -151,6 +152,8 @@ def upsertVideo(title, num, link, size, timestamp):
                 num: [{'link':link, 'size': size}]
             }
         });
+
+    return True
 
 
 
