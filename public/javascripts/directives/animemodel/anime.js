@@ -10,12 +10,14 @@ angular.module('AnimeTracker').directive('anime',
       },
       controller: function($scope){
         $scope.loaddetails = function(){
-          if(!$scope.anime.videos) {
-            getAnime($scope.anime._id, function(response){
-              $scope.anime = response;
-            });
-          }
-        }
+          getAnime($scope.anime._id, function(response){
+            $scope.anime = response;
+          });
+        };
+
+        $scope.hasVideo = function(videos){
+          return videos && Object.keys(videos).length > 0;
+        };
       },
       link: function($scope, elem, attrs){
 

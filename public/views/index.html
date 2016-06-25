@@ -1,5 +1,5 @@
 <div ng-controller="indexCtrl">
-  <div style="height: 400px">
+  <!-- <div style="height: 400px">
     <uib-carousel active="active" interval="myInterval" no-wrap="noWrapSlides">
       <uib-slide ng-repeat="slide in slides track by slide.id" index="slide.id">
         <img ng-src="{{slide.image}}" style="margin:auto;">
@@ -8,12 +8,45 @@
         </div>
       </uib-slide>
     </uib-carousel>
+  </div> -->
+
+  <div class="panel panel-default panel-anime">
+    <div class="panel-heading">
+      <h3 class="panel-title">Recent Updated</h3>
+    </div>
+    <div class="panel-body">
+      Recents
+    </div>
   </div>
 
-  <div class='container animelist'>
-    <div class="row" ng-repeat="temp in animes" ng-if="$index % 4 == 0">
-      <div class="col-lg-3" ng-repeat="anime in animes.slice($index, $index + 4)">
-        <anime anime=anime></anime>
+  <div class="panel panel-default panel-anime">
+    <div class="panel-heading">
+      <h3 class="panel-title">Anime List</h3>
+    </div>
+    <div class="panel-body">
+      <div class='container animelist'>
+        <div class="input-group col-lg-12 margin-bot-10">
+          <div class="input-group-addon">Search</div>
+          <input type="text" ng-change="queryChanged()" class="form-control" placeholder="e.g. Order" ng-model='query'>
+          <span class="input-group-addon" ng-click='clearQuery()'><i class="fa fa-times-circle" aria-hidden="true"></i></span>
+        </div>
+        <div ng-if='!query'>
+          <uib-pagination ng-change="pageChanged(currentPage)" total-items="totalItems" items-per-page="itemsPerPage" ng-model="currentPage" max-size="maxSize" class="pagination-sm" boundary-link-numbers="true" rotate="false"></uib-pagination>
+          <div class="row" ng-repeat="temp in currentAnimes" ng-if="$index % 4 == 0">
+            <div class="col-lg-3" ng-repeat="anime in currentAnimes.slice($index, $index + 4)">
+              <anime anime=anime></anime>
+            </div>
+          </div>
+          <uib-pagination ng-change="pageChanged()" total-items="totalItems" items-per-page="itemsPerPage" ng-model="currentPage" max-size="maxSize" class="pagination-sm" boundary-link-numbers="true" rotate="false"></uib-pagination>
+        </div>
+        <div ng-if='query'>
+          <div ng-if='cancelobj'>Searching</div>
+          <div class="row" ng-repeat="temp in queryAnimes" ng-if="$index % 4 == 0">
+            <div class="col-lg-3" ng-repeat="anime in queryAnimes.slice($index, $index + 4)">
+              <anime anime=anime></anime>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </div>

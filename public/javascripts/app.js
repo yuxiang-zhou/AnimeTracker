@@ -18,6 +18,7 @@ var app = angular
   function ($stateProvider,$urlRouterProvider,$compileProvider) {
 
     $compileProvider.debugInfoEnabled(false);
+    $compileProvider.aHrefSanitizationWhitelist(/^\s*(https?|ftp|mailto|chrome-extension|data|magnet):/);
 
     $urlRouterProvider.when('', '/anime/index');
     $urlRouterProvider.when('/', '/anime/index');

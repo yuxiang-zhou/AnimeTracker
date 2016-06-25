@@ -1,0 +1,56 @@
+g
+{
+  opacity:0;
+}
+
+g#idFirm {
+  animation: dance0 4s infinite;
+}
+
+g#idARight {
+  animation: dance3 4s infinite;
+}
+
+g#idALeft {
+  animation: dance2 4s infinite;
+}
+
+g#idCustomer {
+  animation: dance1 4s infinite;
+}
+
+@keyframes dance0 {
+  0%,20% {
+    opacity:0;
+  }
+  40%,100% {
+    opacity:1;
+  }
+}
+
+@keyframes dance1 {
+  0%,40% {
+    opacity:0;
+  }
+  60%,100% {
+    opacity:1;
+  }
+}
+
+@keyframes dance2 {
+  0%,60% {
+    opacity:0;
+  }
+  80%,100% {
+    opacity:1;
+  }
+}
+
+@keyframes dance3 {
+  0%,80% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}

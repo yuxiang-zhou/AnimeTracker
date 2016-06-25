@@ -1,9 +1,17 @@
 <div>
   <uib-accordion close-others="oneAtATime">
     <uib-accordion-group heading="{{anime.title}}" ng-click="loaddetails()">
-      <ul>
-        <li ng-repeat='(num, vlist) in anime.videos'>{{num}}:<a href="{{vlist[0].link}}">download</a></li>
-      </ul>
+      <div ng-if='hasVideo(anime.videos)'>
+        <h5>List</h5>
+        <ul>
+          <li ng-repeat='(num, vlist) in anime.videos'>{{num}}:<a ng-repeat='download in vlist' href="{{download.link}}">[{{download.size}}]</a></li>
+        </ul>
+      </div>
+      <hr ng-if='hasVideo(anime.videos) && anime.bunk.length'>
+      <div ng-if='anime.bunk.length'>
+        <h5>Bunk Download</h5>
+        <span ng-repeat='bunk in anime.bunk' class='bunk-item'><a href='{{bunk.link}}'>[{{bunk.size}}]</a></span>
+      </div>
     </uib-accordion-group>
   </uib-accordion>
 </div>

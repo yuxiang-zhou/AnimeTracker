@@ -6,4 +6,8 @@ router.get('/', function(req, res) {
     res.render('index', { title: 'Anime Tracker'});
 });
 
+router.get('/test/', function(req, res) {
+    res.render('test', { title: 'Test Page'});
+});
+
 module.exports = router;

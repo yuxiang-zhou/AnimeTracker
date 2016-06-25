@@ -17,7 +17,7 @@ def safe_request(url):
     header = {'User-Agent': 'Mozilla/5.0'}
 
     html = ""
-    retry = 1200
+    retry = 120
     while not html:
         try:
             html = urllib2.urlopen(
@@ -29,10 +29,13 @@ def safe_request(url):
             if e.fp.getcode() < 500:
                 break
 
+            print e
             print 'Retry in {} mins'.format(retry/60)
             html = ""
             time.sleep(retry)
             retry *= 2
+            if retry > 600:
+                break
         except:
             break
 
