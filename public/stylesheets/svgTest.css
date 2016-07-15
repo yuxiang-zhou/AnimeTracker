@@ -5,19 +5,19 @@ g
 
 /*SVG1*/
 g#idFirm {
-  animation: dance0 4s infinite;
+  animation: dance0 8s infinite;
 }
 
 g#idARight {
-  animation: dance3 4s infinite;
+  animation: dance3 8s infinite;
 }
 
 g#idALeft {
-  animation: dance2 4s infinite;
+  animation: dance2 8s infinite;
 }
 
 g#idCustomer {
-  animation: dance1 4s infinite;
+  animation: dance1 8s infinite;
 }
 
 @keyframes dance0 {
