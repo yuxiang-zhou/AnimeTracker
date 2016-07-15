@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created by diasvg.py -->
+<svg width="39.617cm" height="18.183cm" viewBox="1.650 0.800 41.267 18.983"
+ xmlns="http://www.w3.org/2000/svg"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+<rect x="1.700" y="7.900" width="6.600" height="4.300" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="1.700" y="7.900" width="6.600" height="4.300" fill="none" stroke="#000000" stroke-width="0.100" />
+<text x="5.000" y="9.045"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+Firm:</text>
+<text x="5.000" y="9.845"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+Platform</text>
+<text x="5.000" y="10.645"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+Organizer</text>
+<rect x="22.150" y="0.850" width="7.400" height="3.900" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="22.150" y="0.850" width="7.400" height="3.900" fill="none" stroke="#000000" stroke-width="0.100" />
+<text x="25.850" y="2.995"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+Customer A</text>
+<text x="23.200" y="4.000"  fill="#000000" text-anchor="start" font-size="0.85" font-family="sans" font-style="normal" font-weight="400">
+Customers need: </text>
+<text x="23.200" y="4.847"  fill="#000000" text-anchor="start" font-size="0.85" font-family="sans" font-style="normal" font-weight="400">
+Selling a Product / </text>
+<text x="23.200" y="5.693"  fill="#000000" text-anchor="start" font-size="0.85" font-family="sans" font-style="normal" font-weight="400">
+Service or Solution</text>
+<line x1="22.150" y1="3.775" x2="8.509" y2="8.896" stroke="#00FF00" stroke-width="0.100" />
+<polyline fill="none" stroke="#00FF00" stroke-width="0.100"  points="8.785,8.526 8.405,8.936 8.961,8.994 "/>
+<text x="10.600" y="5.880"  fill="#000000" text-anchor="start" font-size="0.85" font-family="sans" font-style="normal" font-weight="400">
+Fee for using platform</text>
+<line x1="22.200" y1="14.825" x2="8.516" y2="11.183" stroke="#00FF00" stroke-width="0.100" />
+<polyline fill="none" stroke="#00FF00" stroke-width="0.100"  points="8.956,11.041 8.408,11.154 8.827,11.524 "/>
+<line x1="24.000" y1="4.750" x2="24.024" y2="13.676" stroke="#000000" stroke-width="0.100" />
+<polyline fill="none" stroke="#000000" stroke-width="0.100"  points="23.773,13.289 24.025,13.788 24.273,13.288 "/>
+<rect x="22.200" y="13.900" width="7.300" height="3.700" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="22.200" y="13.900" width="7.300" height="3.700" fill="none" stroke="#000000" stroke-width="0.100" />
+<text x="25.850" y="15.945"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+Customer B</text>
+<line x1="27.675" y1="13.900" x2="27.699" y2="4.974" stroke="#000000" stroke-width="0.100" />
+<polyline fill="none" stroke="#000000" stroke-width="0.100"  points="27.948,5.362 27.700,4.862 27.448,5.361 "/>
+<text x="11.150" y="13.980"  fill="#000000" text-anchor="start" font-size="0.85" font-family="sans" font-style="normal" font-weight="400">
+Fee for using platform</text>
+<text x="23.000" y="17.130"  fill="#000000" text-anchor="start" font-size="0.85" font-family="sans" font-style="normal" font-weight="400">
+Customers need: </text>
+<text x="23.000" y="17.977"  fill="#000000" text-anchor="start" font-size="0.85" font-family="sans" font-style="normal" font-weight="400">
+Buying a Product / </text>
+<text x="23.000" y="18.823"  fill="#000000" text-anchor="start" font-size="0.85" font-family="sans" font-style="normal" font-weight="400">
+Service or Solution</text>
+<text x="19.100" y="8.780"  fill="#000000" text-anchor="start" font-size="0.85" font-family="sans" font-style="normal" font-weight="400">
+Product / Service</text>
+<text x="26.150" y="10.030"  fill="#000000" text-anchor="start" font-size="0.85" font-family="sans" font-style="normal" font-weight="400">
+Payment</text>
+<text x="30.750" y="8.280"  fill="#000000" text-anchor="start" font-size="0.85" font-family="sans" font-style="normal" font-weight="400">
+The firm connects Customer A </text>
+<text x="30.750" y="9.127"  fill="#000000" text-anchor="start" font-size="0.85" font-family="sans" font-style="normal" font-weight="400">
+and Customer B through its </text>
+<text x="30.750" y="9.973"  fill="#000000" text-anchor="start" font-size="0.85" font-family="sans" font-style="normal" font-weight="400">
+physical or digital platform</text>
+</svg>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created by diasvg.py -->
+<svg width="32.988cm" height="16.850cm" viewBox="1.650 0.800 34.638 17.650"
+ xmlns="http://www.w3.org/2000/svg"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+<rect x="1.700" y="7.900" width="6.600" height="4.300" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="1.700" y="7.900" width="6.600" height="4.300" fill="none" stroke="#000000" stroke-width="0.100" />
+<text x="5.000" y="9.045"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+Firm:</text>
+<text x="5.000" y="9.845"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+Platform</text>
+<text x="5.000" y="10.645"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+Organizer</text>
+<rect x="22.150" y="0.850" width="7.400" height="3.900" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="22.150" y="0.850" width="7.400" height="3.900" fill="none" stroke="#000000" stroke-width="0.100" />
+<text x="25.850" y="2.995"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+Customer A</text>
+<text x="22.850" y="4.200"  fill="#000000" text-anchor="start" font-size="0.85" font-family="sans" font-style="normal" font-weight="400">
+Customers&apos; Needs</text>
+<line x1="8.300" y1="8.975" x2="21.951" y2="1.928" stroke="#000000" stroke-width="0.100" />
+<polyline fill="none" stroke="#000000" stroke-width="0.100"  points="21.721,2.328 22.051,1.876 21.492,1.884 "/>
+<text x="11.650" y="7.230"  fill="#000000" text-anchor="start" font-size="0.85" font-family="sans" font-style="normal" font-weight="400">
+Product X</text>
+<line x1="8.300" y1="11.125" x2="21.988" y2="15.679" stroke="#000000" stroke-width="0.100" />
+<polyline fill="none" stroke="#000000" stroke-width="0.100"  points="21.541,15.794 22.094,15.715 21.698,15.320 "/>
+<rect x="22.200" y="13.900" width="7.300" height="3.700" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="22.200" y="13.900" width="7.300" height="3.700" fill="none" stroke="#000000" stroke-width="0.100" />
+<text x="25.850" y="15.945"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+Customer B</text>
+<text x="10.550" y="15.480"  fill="#000000" text-anchor="start" font-size="0.85" font-family="sans" font-style="normal" font-weight="400">
+Fee for using platform</text>
+<text x="10.150" y="10.180"  fill="#000000" text-anchor="start" font-size="0.85" font-family="sans" font-style="normal" font-weight="400">
+Additional Benefit</text>
+<text x="21.700" y="8.330"  fill="#000000" text-anchor="start" font-size="0.85" font-family="sans" font-style="normal" font-weight="400">
+The firm provide different </text>
+<text x="21.700" y="9.177"  fill="#000000" text-anchor="start" font-size="0.85" font-family="sans" font-style="normal" font-weight="400">
+products to Customer A and B.</text>
+<text x="21.700" y="10.023"  fill="#000000" text-anchor="start" font-size="0.85" font-family="sans" font-style="normal" font-weight="400">
+Customer B dirives additional</text>
+<text x="21.700" y="10.870"  fill="#000000" text-anchor="start" font-size="0.85" font-family="sans" font-style="normal" font-weight="400">
+benefit from Customer A&apos;s transaction</text>
+<text x="22.798" y="17.103"  fill="#000000" text-anchor="start" font-size="0.85" font-family="sans" font-style="normal" font-weight="400">
+Customers&apos; Needs</text>
+<line x1="21.156" y1="16.551" x2="10.062" y2="13.286" stroke="#00FF00" stroke-width="0.100" />
+<polyline fill="none" stroke="#00FF00" stroke-width="0.100"  points="10.505,13.156 9.955,13.254 10.364,13.635 "/>
+<text x="9.298" y="4.003"  fill="#000000" text-anchor="start" font-size="0.85" font-family="sans" font-style="normal" font-weight="400">
+Fee for using platform</text>
+<line x1="20.506" y1="1.551" x2="8.900" y2="7.027" stroke="#00FF00" stroke-width="0.100" />
+<polyline fill="none" stroke="#00FF00" stroke-width="0.100"  points="9.144,6.636 8.799,7.075 9.358,7.088 "/>
+<text x="11.198" y="12.853"  fill="#000000" text-anchor="start" font-size="0.85" font-family="sans" font-style="normal" font-weight="400">
+Product Y</text>
+<line x1="22.150" y1="2.800" x2="8.498" y2="9.946" stroke="#0000FF" stroke-width="0.100" />
+<polyline fill="none" stroke="#0000FF" stroke-width="0.100"  points="8.726,9.545 8.399,9.998 8.958,9.988 "/>
+<line x1="8.300" y1="10.050" x2="21.989" y2="14.752" stroke="#0000FF" stroke-width="0.100" />
+<polyline fill="none" stroke="#0000FF" stroke-width="0.100"  points="21.540,14.863 22.094,14.789 21.703,14.390 "/>
+</svg>
