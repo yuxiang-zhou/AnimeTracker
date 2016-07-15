@@ -3,6 +3,7 @@ g
   opacity:0;
 }
 
+/*SVG1*/
 g#idFirm {
   animation: dance0 4s infinite;
 }
@@ -48,6 +49,100 @@ g#idCustomer {
 
 @keyframes dance3 {
   0%,80% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+
+/*SVG2*/
+
+g#frame2_1, g.cf7_1 {
+  animation: rate7_1 7s infinite;
+}
+
+@keyframes rate7_1 {
+  0%,12.5% {
+    opacity:0;
+  }
+  25%,100% {
+    opacity:1;
+  }
+}
+
+g#frame2_2, g.cf7_2 {
+  animation: rate7_2 7s infinite;
+}
+
+@keyframes rate7_2 {
+  0%,25% {
+    opacity:0;
+  }
+  37.5%,100% {
+    opacity:1;
+  }
+}
+
+g#frame2_3, g.cf7_3 {
+  animation: rate7_3 7s infinite;
+}
+
+@keyframes rate7_3 {
+  0%,37.5% {
+    opacity:0;
+  }
+  50%,100% {
+    opacity:1;
+  }
+}
+
+g#frame2_4, g.cf7_4 {
+  animation: rate7_4 7s infinite;
+}
+
+@keyframes rate7_4 {
+  0%,50% {
+    opacity:0;
+  }
+  62.5%,100% {
+    opacity:1;
+  }
+}
+
+g#frame2_5, g.cf7_5 {
+  animation: rate7_5 7s infinite;
+}
+
+@keyframes rate7_5 {
+  0%,62.5% {
+    opacity:0;
+  }
+  75%,100% {
+    opacity:1;
+  }
+}
+
+g#frame2_6, g.cf7_6 {
+  animation: rate7_6 7s infinite;
+}
+
+@keyframes rate7_6 {
+  0%,75% {
+    opacity:0;
+  }
+  87.5%,100% {
+    opacity:1;
+  }
+}
+
+g#frame2_7, g.cf7_7 {
+  animation: rate7_7 7s infinite;
+}
+
+@keyframes rate7_7 {
+  0%,87.5% {
     opacity:0;
   }
   100% {
