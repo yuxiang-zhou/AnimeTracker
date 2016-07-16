@@ -100,7 +100,7 @@
        font-style="normal"
        font-weight="400"
        id="text9-4-7"
-       style="font-style:normal;font-weight:400;font-size:32.59140778px;font-family:sans;text-anchor:middle;fill:#ffffff">
+       style="font-style:normal;font-weight:400;font-size:32.59140778px;font-family:impact, georgia, times, serif;text-anchor:middle;fill:#ffffff">
       <tspan
          style="font-weight:bold;fill:#ffffff"
          id="tspan4160-5-3">FIRM</tspan>
@@ -112,7 +112,7 @@
        font-style="normal"
        font-weight="400"
        id="text9-7-4-2"
-       style="font-style:normal;font-weight:400;font-size:32.59140778px;font-family:sans;text-anchor:middle;fill:#ffffff">
+       style="font-style:normal;font-weight:400;font-size:32.59140778px;font-family:impact, georgia, times, serif;text-anchor:middle;fill:#ffffff">
       <tspan
          style="font-weight:normal;font-size:20.36963272px;fill:#ffffff"
          id="tspan4160-3-9-4">Platform organiser</tspan>
@@ -135,7 +135,7 @@
        font-style="normal"
        font-weight="400"
        id="text26-9"
-       style="font-style:normal;font-weight:400;font-size:32.59140778px;font-family:sans;text-anchor:middle;fill:#374f5a;fill-opacity:1">
+       style="font-style:normal;font-weight:400;font-size:32.59140778px;font-family:impact, georgia, times, serif;text-anchor:middle;fill:#374f5a;fill-opacity:1">
       <tspan
          style="font-weight:bold;fill:#374f5a;fill-opacity:1"
          id="tspan4162-57">CUSTOMER A</tspan>
@@ -154,7 +154,7 @@
        font-style="normal"
        font-weight="400"
        id="text26-9-0"
-       style="font-style:normal;font-weight:400;font-size:32.59140778px;font-family:sans;text-anchor:middle;fill:#374f5a;fill-opacity:1">
+       style="font-style:normal;font-weight:400;font-size:32.59140778px;font-family:impact, georgia, times, serif;text-anchor:middle;fill:#374f5a;fill-opacity:1">
       <tspan
          style="font-weight:bold;fill:#374f5a;fill-opacity:1"
          id="tspan4162-57-2">CUSTOMER B</tspan>
@@ -166,7 +166,7 @@
        font-style="normal"
        font-weight="400"
        id="text26-0-4-9-0"
-       style="font-style:normal;font-weight:400;font-size:32.59140778px;font-family:sans;text-anchor:middle;fill:#374f5a;fill-opacity:1">
+       style="font-style:normal;font-weight:400;font-size:32.59140778px;font-family:impact, georgia, times, serif;text-anchor:middle;fill:#374f5a;fill-opacity:1">
       <tspan
          style="font-weight:normal;font-size:20.36962891px;fill:#374f5a;fill-opacity:1"
          id="tspan4162-8-2-3-2">Customer's need</tspan>
@@ -178,7 +178,7 @@
        font-style="normal"
        font-weight="400"
        id="text26-0-4-9-0-6"
-       style="font-style:normal;font-weight:400;font-size:32.59140778px;font-family:sans;text-anchor:middle;fill:#374f5a;fill-opacity:1">
+       style="font-style:normal;font-weight:400;font-size:32.59140778px;font-family:impact, georgia, times, serif;text-anchor:middle;fill:#374f5a;fill-opacity:1">
       <tspan
          style="font-weight:normal;font-size:20.36962891px;fill:#374f5a;fill-opacity:1"
          id="tspan4162-8-2-3-2-8">Customer's need</tspan>
@@ -207,7 +207,7 @@
        font-style="normal"
        font-weight="400"
        id="text26-0-9"
-       style="font-style:normal;font-weight:400;font-size:32.59140778px;font-family:sans;text-anchor:middle;fill:#374f5a;fill-opacity:1">
+       style="font-style:normal;font-weight:400;font-size:32.59140778px;font-family:impact, georgia, times, serif;text-anchor:middle;fill:#374f5a;fill-opacity:1">
       <tspan
          style="font-weight:normal;font-size:20.36962891px;fill:#374f5a;fill-opacity:1"
          id="tspan4162-8-4">Payment</tspan>
@@ -232,7 +232,7 @@
        font-style="normal"
        font-weight="400"
        id="text26-0-9-9"
-       style="font-style:normal;font-weight:400;font-size:32.59140778px;font-family:sans;text-anchor:middle;fill:#374f5a;fill-opacity:1">
+       style="font-style:normal;font-weight:400;font-size:32.59140778px;font-family:impact, georgia, times, serif;text-anchor:middle;fill:#374f5a;fill-opacity:1">
       <tspan
          style="font-weight:normal;font-size:20.36962891px;fill:#374f5a;fill-opacity:1"
          id="tspan4162-8-4-0">Payment</tspan>
@@ -261,7 +261,7 @@
        font-style="normal"
        font-weight="400"
        id="text9-7-2"
-       style="font-style:normal;font-weight:400;font-size:32.59140778px;font-family:sans;text-anchor:middle;fill:#ffffff">
+       style="font-style:normal;font-weight:400;font-size:32.59140778px;font-family:impact, georgia, times, serif;text-anchor:middle;fill:#ffffff">
       <tspan
          style="font-weight:normal;font-size:20.36963272px;fill:#ffffff"
          id="tspan4160-3-87">Product X</tspan>
@@ -306,7 +306,7 @@
        font-style="normal"
        font-weight="400"
        id="text9-7-2-3"
-       style="font-style:normal;font-weight:400;font-size:32.59140778px;font-family:sans;text-anchor:middle;fill:#ffffff">
+       style="font-style:normal;font-weight:400;font-size:32.59140778px;font-family:impact, georgia, times, serif;text-anchor:middle;fill:#ffffff">
       <tspan
          style="font-weight:normal;font-size:20.36963272px;fill:#ffffff"
          id="tspan4160-3-87-6">Product Y</tspan>
@@ -328,7 +328,7 @@
        id="text8080"
        y="272.61227"
        x="329.55139"
-       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:impact, georgia, times, serif-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        xml:space="preserve"><tspan
          style="font-size:20px;fill:#ffffff"
          y="272.61227"
@@ -414,7 +414,7 @@ eAAAAABJRU5ErkJggg==
        font-style="normal"
        font-weight="400"
        id="text26-0-4-9-0-6-1"
-       style="font-style:normal;font-weight:400;font-size:32.59140778px;font-family:sans;text-anchor:middle;fill:#374f5a;fill-opacity:1">
+       style="font-style:normal;font-weight:400;font-size:32.59140778px;font-family:impact, georgia, times, serif;text-anchor:middle;fill:#374f5a;fill-opacity:1">
       <tspan
          style="font-weight:normal;font-size:20.36962891px;fill:#374f5a;fill-opacity:1"
          id="tspan4162-8-2-3-2-8-6">By using Product X, Customer A</tspan>
@@ -426,7 +426,7 @@ eAAAAABJRU5ErkJggg==
        font-size="0.80"
        font-style="normal"
        font-weight="400"
-       style="font-style:normal;font-weight:400;font-size:32.59140778px;font-family:sans;text-anchor:middle;fill:#374f5a;fill-opacity:1">
+       style="font-style:normal;font-weight:400;font-size:32.59140778px;font-family:impact, georgia, times, serif;text-anchor:middle;fill:#374f5a;fill-opacity:1">
       <tspan
          id="tspan8868"
          style="font-weight:normal;font-size:20.36962891px;fill:#374f5a;fill-opacity:1">creates an additional benefit of</tspan>
@@ -438,7 +438,7 @@ eAAAAABJRU5ErkJggg==
        font-size="0.80"
        font-style="normal"
        font-weight="400"
-       style="font-style:normal;font-weight:400;font-size:32.59140778px;font-family:sans;text-anchor:middle;fill:#374f5a;fill-opacity:1">
+       style="font-style:normal;font-weight:400;font-size:32.59140778px;font-family:impact, georgia, times, serif;text-anchor:middle;fill:#374f5a;fill-opacity:1">
       <tspan
          id="tspan8872"
          style="font-weight:normal;font-size:20.36962891px;fill:#374f5a;fill-opacity:1">value to Customer B access</tspan>
@@ -450,7 +450,7 @@ eAAAAABJRU5ErkJggg==
        font-size="0.80"
        font-style="normal"
        font-weight="400"
-       style="font-style:normal;font-weight:400;font-size:32.59140778px;font-family:sans;text-anchor:middle;fill:#374f5a;fill-opacity:1">
+       style="font-style:normal;font-weight:400;font-size:32.59140778px;font-family:impact, georgia, times, serif;text-anchor:middle;fill:#374f5a;fill-opacity:1">
       <tspan
          id="tspan8876"
          style="font-weight:normal;font-size:20.36962891px;fill:#374f5a;fill-opacity:1">through Product Y.</tspan>
