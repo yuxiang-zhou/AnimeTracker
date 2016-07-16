@@ -71,7 +71,7 @@
      fit-margin-right="2"
      fit-margin-bottom="0"
      inkscape:zoom="1.1879159"
-     inkscape:cx="895.16126"
+     inkscape:cx="286.6571"
      inkscape:cy="263.73527"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
@@ -238,9 +238,14 @@
          id="tspan4162-8-4-0">Payment</tspan>
     </text>
   </g>
+  <polyline
+     transform="matrix(40.919488,-15.975536,16.145324,39.679234,-883.75584,-112.22068)"
+     style="fill:none;stroke:#ffffff;stroke-width:0.04610714;stroke-miterlimit:4;stroke-dasharray:0.04610714, 0.04610714;stroke-dashoffset:0;stroke-opacity:1"
+     id="polyline14-7-4-7"
+     points="29.338,18.250 29.838,18.000 29.338,17.750 " />
   <g
      id="frame4_3"
-     inkscape:label="#g8122">
+     inkscape:label="#g4223">
     <line
        x1="265.10556"
        y1="205.71233"
@@ -266,26 +271,6 @@
          style="font-weight:normal;font-size:20.36963272px;fill:#ffffff"
          id="tspan4160-3-87">Product X</tspan>
     </text>
-  </g>
-  <g
-     id="frame4_4"
-     inkscape:label="#g8128">
-    <line
-       x1="627.81567"
-       y1="125.39545"
-       x2="270.75217"
-       y2="264.798"
-       id="line12-2-4-4"
-       style="fill:#ffffff;stroke:#ffffff;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:2, 2;stroke-dashoffset:0;stroke-opacity:1" />
-    <polyline
-       points="29.338,18.250 29.838,18.000 29.338,17.750 "
-       id="polyline14-7-4-7"
-       style="fill:none;stroke:#ffffff;stroke-width:0.04610714;stroke-miterlimit:4;stroke-dasharray:0.04610714, 0.04610714;stroke-dashoffset:0;stroke-opacity:1"
-       transform="matrix(-40.919488,15.975536,-16.145324,-39.679234,1777.7407,504.13536)" />
-  </g>
-  <g
-     id="frame4_5"
-     inkscape:label="#g8132">
     <line
        x1="261.38297"
        y1="326.26953"
@@ -311,6 +296,17 @@
          style="font-weight:normal;font-size:20.36963272px;fill:#ffffff"
          id="tspan4160-3-87-6">Product Y</tspan>
     </text>
+  </g>
+  <g
+     id="frame4_4"
+     inkscape:label="#g4233">
+    <line
+       x1="266.16919"
+       y1="266.51923"
+       x2="623.23267"
+       y2="127.11668"
+       id="line12-2-4-4"
+       style="fill:#ffffff;stroke:#ffffff;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:2, 2;stroke-dashoffset:0;stroke-opacity:1" />
     <line
        x1="266.20728"
        y1="264.396"
@@ -318,24 +314,25 @@
        y2="398.80695"
        id="line12-2-4-4-0"
        style="fill:#ffffff;stroke:#ffffff;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:2, 2;stroke-dashoffset:0;stroke-opacity:1" />
-    <polyline
-       points="29.338,18.250 29.838,18.000 29.338,17.750 "
-       id="polyline14-7-4-7-3"
-       style="fill:none;stroke:#ffffff;stroke-width:0.04610714;stroke-miterlimit:4;stroke-dasharray:0.04610714, 0.04610714;stroke-dashoffset:0;stroke-opacity:1"
-       transform="matrix(41.138234,15.403504,-14.449498,40.327721,-337.6047,-784.97653)" />
-    <text
-       sodipodi:linespacing="125%"
-       id="text8080"
-       y="272.61227"
-       x="329.55139"
-       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:impact, georgia, times, serif-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       xml:space="preserve"><tspan
-         style="font-size:20px;fill:#ffffff"
-         y="272.61227"
-         x="329.55139"
-         id="tspan8082"
-         sodipodi:role="line">Additional benefit</tspan></text>
   </g>
+  <polyline
+     transform="matrix(41.138234,15.403504,-14.449498,40.327721,-337.6047,-784.97653)"
+     style="fill:none;stroke:#ffffff;stroke-width:0.04610714;stroke-miterlimit:4;stroke-dasharray:0.04610714, 0.04610714;stroke-dashoffset:0;stroke-opacity:1"
+     id="polyline14-7-4-7-3"
+     points="29.338,18.250 29.838,18.000 29.338,17.750 " />
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:impact, georgia, times, serif-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     x="329.55139"
+     y="272.61227"
+     id="frame4_5"
+     sodipodi:linespacing="125%"
+     inkscape:label="#text8080"><tspan
+       sodipodi:role="line"
+       id="tspan8082"
+       x="329.55139"
+       y="272.61227"
+       style="font-size:20px;fill:#ffffff">Additional benefit</tspan></text>
   <g
      id="frame4_6"
      inkscape:label="#g4198">
