@@ -1,56 +1,475 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!-- Created by diasvg.py -->
-<svg width="39.617cm" height="18.183cm" viewBox="1.650 0.800 41.267 18.983"
- xmlns="http://www.w3.org/2000/svg"
- xmlns:xlink="http://www.w3.org/1999/xlink">
-<rect x="1.700" y="7.900" width="6.600" height="4.300" fill="#FFFFFF" stroke="none" stroke-width="0"/>
-<rect x="1.700" y="7.900" width="6.600" height="4.300" fill="none" stroke="#000000" stroke-width="0.100" />
-<text x="5.000" y="9.045"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
-Firm:</text>
-<text x="5.000" y="9.845"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
-Platform</text>
-<text x="5.000" y="10.645"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
-Organizer</text>
-<rect x="22.150" y="0.850" width="7.400" height="3.900" fill="#FFFFFF" stroke="none" stroke-width="0"/>
-<rect x="22.150" y="0.850" width="7.400" height="3.900" fill="none" stroke="#000000" stroke-width="0.100" />
-<text x="25.850" y="2.995"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
-Customer A</text>
-<text x="23.200" y="4.000"  fill="#000000" text-anchor="start" font-size="0.85" font-family="sans" font-style="normal" font-weight="400">
-Customers need: </text>
-<text x="23.200" y="4.847"  fill="#000000" text-anchor="start" font-size="0.85" font-family="sans" font-style="normal" font-weight="400">
-Selling a Product / </text>
-<text x="23.200" y="5.693"  fill="#000000" text-anchor="start" font-size="0.85" font-family="sans" font-style="normal" font-weight="400">
-Service or Solution</text>
-<line x1="22.150" y1="3.775" x2="8.509" y2="8.896" stroke="#00FF00" stroke-width="0.100" />
-<polyline fill="none" stroke="#00FF00" stroke-width="0.100"  points="8.785,8.526 8.405,8.936 8.961,8.994 "/>
-<text x="10.600" y="5.880"  fill="#000000" text-anchor="start" font-size="0.85" font-family="sans" font-style="normal" font-weight="400">
-Fee for using platform</text>
-<line x1="22.200" y1="14.825" x2="8.516" y2="11.183" stroke="#00FF00" stroke-width="0.100" />
-<polyline fill="none" stroke="#00FF00" stroke-width="0.100"  points="8.956,11.041 8.408,11.154 8.827,11.524 "/>
-<line x1="24.000" y1="4.750" x2="24.024" y2="13.676" stroke="#000000" stroke-width="0.100" />
-<polyline fill="none" stroke="#000000" stroke-width="0.100"  points="23.773,13.289 24.025,13.788 24.273,13.288 "/>
-<rect x="22.200" y="13.900" width="7.300" height="3.700" fill="#FFFFFF" stroke="none" stroke-width="0"/>
-<rect x="22.200" y="13.900" width="7.300" height="3.700" fill="none" stroke="#000000" stroke-width="0.100" />
-<text x="25.850" y="15.945"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
-Customer B</text>
-<line x1="27.675" y1="13.900" x2="27.699" y2="4.974" stroke="#000000" stroke-width="0.100" />
-<polyline fill="none" stroke="#000000" stroke-width="0.100"  points="27.948,5.362 27.700,4.862 27.448,5.361 "/>
-<text x="11.150" y="13.980"  fill="#000000" text-anchor="start" font-size="0.85" font-family="sans" font-style="normal" font-weight="400">
-Fee for using platform</text>
-<text x="23.000" y="17.130"  fill="#000000" text-anchor="start" font-size="0.85" font-family="sans" font-style="normal" font-weight="400">
-Customers need: </text>
-<text x="23.000" y="17.977"  fill="#000000" text-anchor="start" font-size="0.85" font-family="sans" font-style="normal" font-weight="400">
-Buying a Product / </text>
-<text x="23.000" y="18.823"  fill="#000000" text-anchor="start" font-size="0.85" font-family="sans" font-style="normal" font-weight="400">
-Service or Solution</text>
-<text x="19.100" y="8.780"  fill="#000000" text-anchor="start" font-size="0.85" font-family="sans" font-style="normal" font-weight="400">
-Product / Service</text>
-<text x="26.150" y="10.030"  fill="#000000" text-anchor="start" font-size="0.85" font-family="sans" font-style="normal" font-weight="400">
-Payment</text>
-<text x="30.750" y="8.280"  fill="#000000" text-anchor="start" font-size="0.85" font-family="sans" font-style="normal" font-weight="400">
-The firm connects Customer A </text>
-<text x="30.750" y="9.127"  fill="#000000" text-anchor="start" font-size="0.85" font-family="sans" font-style="normal" font-weight="400">
-and Customer B through its </text>
-<text x="30.750" y="9.973"  fill="#000000" text-anchor="start" font-size="0.85" font-family="sans" font-style="normal" font-weight="400">
-physical or digital platform</text>
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="1222.4443"
+   height="354.82947"
+   viewbox="15.950 16.950 36.050 20.050"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="SVG3.svg">
+  <metadata
+     id="metadata32">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs30">
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="-3.6053538 : 4.8580283 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="18.135241 : 3.6463668 : 1"
+       inkscape:persp3d-origin="8.9186018 : 1.0333333 : 1"
+       id="perspective4278" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="-9.0114908 : 4.9015191 : 1"
+       inkscape:vp_y="0 : 1169.3543 : 0"
+       inkscape:vp_z="20.352327 : 4.9015191 : 1"
+       inkscape:persp3d-origin="5.6704181 : 4.2973526 : 1"
+       id="perspective4208" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="-29.598169 : 1.7798047 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="37.660468 : 0.56814323 : 1"
+       inkscape:persp3d-origin="9.1470544 : -2.0448903 : 1"
+       id="perspective4164" />
+  </defs>
+  <sodipodi:namedview
+     pagecolor="#828280"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1600"
+     inkscape:window-height="847"
+     id="namedview28"
+     showgrid="false"
+     fit-margin-top="-4.1633363e-016"
+     fit-margin-left="0"
+     fit-margin-right="2"
+     fit-margin-bottom="0"
+     inkscape:zoom="0.94227975"
+     inkscape:cx="610.22218"
+     inkscape:cy="177.41473"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg2">
+    <inkscape:grid
+       type="xygrid"
+       id="grid4280"
+       originx="437.39236"
+       originy="70.390433" />
+  </sodipodi:namedview>
+  <g
+     id="frame3_3"
+     inkscape:label="#g7011">
+    <rect
+       x="2.2980621"
+       y="121.46967"
+       width="260.37543"
+       height="121.69556"
+       id="rect7-2-9"
+       style="fill:none;stroke:#ffffff;stroke-width:4.59612417;stroke-opacity:1" />
+    <text
+       x="130.56088"
+       y="185.85313"
+       font-size="0.80"
+       font-style="normal"
+       font-weight="400"
+       id="text9-4-7"
+       style="font-style:normal;font-weight:400;font-size:32.59140778px;font-family:sans;text-anchor:middle;fill:#ffffff">
+      <tspan
+         style="font-weight:bold;fill:#ffffff"
+         id="tspan4160-5-3">FIRM</tspan>
+    </text>
+    <text
+       x="132.32968"
+       y="215.29456"
+       font-size="0.80"
+       font-style="normal"
+       font-weight="400"
+       id="text9-7-4-2"
+       style="font-style:normal;font-weight:400;font-size:32.59140778px;font-family:sans;text-anchor:middle;fill:#ffffff">
+      <tspan
+         style="font-weight:normal;font-size:20.36963272px;fill:#ffffff"
+         id="tspan4160-3-9-4">Platform organiser</tspan>
+    </text>
+  </g>
+  <g
+     id="frame3_1"
+     inkscape:label="#g6993">
+    <rect
+       x="633.3194"
+       y="2.1235385"
+       width="266.0321"
+       height="122.04462"
+       id="rect24-0"
+       style="fill:none;stroke:#374f5a;stroke-width:4.24707699;stroke-opacity:1" />
+    <text
+       x="767.37524"
+       y="37.609924"
+       font-size="0.80"
+       font-style="normal"
+       font-weight="400"
+       id="text26-9"
+       style="font-style:normal;font-weight:400;font-size:32.59140778px;font-family:sans;text-anchor:middle;fill:#374f5a;fill-opacity:1">
+      <tspan
+         style="font-weight:bold;fill:#374f5a;fill-opacity:1"
+         id="tspan4162-57">CUSTOMER A</tspan>
+    </text>
+    <rect
+       x="633.07062"
+       y="230.66132"
+       width="266.0321"
+       height="122.04462"
+       id="rect24-0-7"
+       style="fill:none;stroke:#374f5a;stroke-width:4.24707699;stroke-opacity:1" />
+    <text
+       x="767.12646"
+       y="266.14771"
+       font-size="0.80"
+       font-style="normal"
+       font-weight="400"
+       id="text26-9-0"
+       style="font-style:normal;font-weight:400;font-size:32.59140778px;font-family:sans;text-anchor:middle;fill:#374f5a;fill-opacity:1">
+      <tspan
+         style="font-weight:bold;fill:#374f5a;fill-opacity:1"
+         id="tspan4162-57-2">CUSTOMER B</tspan>
+    </text>
+  </g>
+  <g
+     id="frame3_2"
+     inkscape:label="#g7001">
+    <text
+       x="766.15253"
+       y="75.188316"
+       font-size="0.80"
+       font-style="normal"
+       font-weight="400"
+       id="text26-0-8-3"
+       style="font-style:normal;font-weight:400;font-size:32.59140778px;font-family:sans;text-anchor:middle;fill:#374f5a;fill-opacity:1">
+      <tspan
+         style="font-weight:bold;font-size:20.36962891px;fill:#374f5a;fill-opacity:1"
+         id="tspan4162-8-1-6">SELLER</tspan>
+    </text>
+    <text
+       x="768.43976"
+       y="107.47591"
+       font-size="0.80"
+       font-style="normal"
+       font-weight="400"
+       id="text26-0-4-9-0"
+       style="font-style:normal;font-weight:400;font-size:32.59140778px;font-family:sans;text-anchor:middle;fill:#374f5a;fill-opacity:1">
+      <tspan
+         style="font-weight:normal;font-size:20.36962891px;fill:#374f5a;fill-opacity:1"
+         id="tspan4162-8-2-3-2">Customer's need</tspan>
+    </text>
+    <text
+       x="765.90375"
+       y="303.72607"
+       font-size="0.80"
+       font-style="normal"
+       font-weight="400"
+       id="text26-0-8-3-2"
+       style="font-style:normal;font-weight:400;font-size:32.59140778px;font-family:sans;text-anchor:middle;fill:#374f5a;fill-opacity:1">
+      <tspan
+         style="font-weight:bold;font-size:20.36962891px;fill:#374f5a;fill-opacity:1"
+         id="tspan4162-8-1-6-3">BUYER</tspan>
+    </text>
+    <text
+       x="768.19098"
+       y="336.01367"
+       font-size="0.80"
+       font-style="normal"
+       font-weight="400"
+       id="text26-0-4-9-0-6"
+       style="font-style:normal;font-weight:400;font-size:32.59140778px;font-family:sans;text-anchor:middle;fill:#374f5a;fill-opacity:1">
+      <tspan
+         style="font-weight:normal;font-size:20.36962891px;fill:#374f5a;fill-opacity:1"
+         id="tspan4162-8-2-3-2-8">Customer's need</tspan>
+    </text>
+  </g>
+  <g
+     id="frame3_7"
+     inkscape:label="#g7041">
+    <line
+       x1="633.76923"
+       y1="123.41911"
+       x2="279.53259"
+       y2="123.41911"
+       id="line17-2"
+       style="stroke:#374f5a;stroke-width:4.05800009;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <polyline
+       transform="matrix(40.36425,0,0,40.797277,-577.15826,-661.92848)"
+       points="21.612,19.000 21.112,19.250 21.612,19.500 "
+       id="polyline19-8"
+       style="fill:none;stroke:#324f5a;stroke-width:0.1;stroke-opacity:1" />
+    <text
+       x="349.56378"
+       y="75.701218"
+       font-size="0.80"
+       font-style="normal"
+       font-weight="400"
+       id="text26-0-8"
+       style="font-style:normal;font-weight:400;font-size:32.59140778px;font-family:sans;text-anchor:middle;fill:#374f5a;fill-opacity:1">
+      <tspan
+         style="font-weight:normal;font-size:20.36962891px;fill:#374f5a;fill-opacity:1"
+         id="tspan4162-8-1">Fee for</tspan>
+    </text>
+    <text
+       id="text6602"
+       x="395.10318"
+       y="101.61756"
+       font-size="0.80"
+       font-style="normal"
+       font-weight="400"
+       style="font-style:normal;font-weight:400;font-size:32.59140778px;font-family:sans;text-anchor:middle;fill:#374f5a;fill-opacity:1">
+      <tspan
+         id="tspan6604"
+         style="font-weight:normal;font-size:20.36962891px;fill:#374f5a;fill-opacity:1">using <tspan
+   id="tspan6607"
+   style="font-weight:bold">platform</tspan>
+</tspan>
+    </text>
+    <line
+       x1="634.65259"
+       y1="231.13249"
+       x2="280.41595"
+       y2="231.13249"
+       id="line17-2-6"
+       style="stroke:#374f5a;stroke-width:4.05801868;stroke-opacity:1" />
+    <polyline
+       transform="matrix(40.36425,0,0,40.797277,-576.27491,-554.2151)"
+       points="21.612,19.000 21.112,19.250 21.612,19.500 "
+       id="polyline19-8-1"
+       style="fill:none;stroke:#324f5a;stroke-width:0.1;stroke-opacity:1" />
+    <text
+       x="347.33719"
+       y="257.01697"
+       font-size="0.80"
+       font-style="normal"
+       font-weight="400"
+       id="text26-0-8-36"
+       style="font-style:normal;font-weight:400;font-size:32.59140778px;font-family:sans;text-anchor:middle;fill:#374f5a;fill-opacity:1">
+      <tspan
+         style="font-weight:normal;font-size:20.36962891px;fill:#374f5a;fill-opacity:1"
+         id="tspan4162-8-1-9">Fee for</tspan>
+    </text>
+    <text
+       id="text6602-8"
+       x="392.87659"
+       y="282.93332"
+       font-size="0.80"
+       font-style="normal"
+       font-weight="400"
+       style="font-style:normal;font-weight:400;font-size:32.59140778px;font-family:sans;text-anchor:middle;fill:#374f5a;fill-opacity:1">
+      <tspan
+         id="tspan6604-7"
+         style="font-weight:normal;font-size:20.36962891px;fill:#374f5a;fill-opacity:1">using <tspan
+   id="tspan6607-9"
+   style="font-weight:bold">platform</tspan>
+</tspan>
+    </text>
+  </g>
+  <g
+     id="frame3_6"
+     inkscape:label="#g7035">
+    <line
+       x1="826.21252"
+       y1="231.54085"
+       x2="826.21252"
+       y2="147.91675"
+       id="line17-2-9"
+       style="stroke:#374f5a;stroke-width:3.72327852;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <polyline
+       transform="matrix(0,34.653971,-41.355935,0,1622.3142,-587.57916)"
+       points="21.612,19.000 21.112,19.250 21.612,19.500 "
+       id="polyline19-8-9"
+       style="fill:none;stroke:#324f5a;stroke-width:0.1;stroke-opacity:1" />
+    <text
+       x="881.44092"
+       y="176.64407"
+       font-size="0.80"
+       font-style="normal"
+       font-weight="400"
+       id="text26-0-9"
+       style="font-style:normal;font-weight:400;font-size:32.59140778px;font-family:sans;text-anchor:middle;fill:#374f5a;fill-opacity:1">
+      <tspan
+         style="font-weight:normal;font-size:20.36962891px;fill:#374f5a;fill-opacity:1"
+         id="tspan4162-8-4">Payment</tspan>
+    </text>
+  </g>
+  <g
+     id="frame3_5"
+     inkscape:label="#g7029">
+    <line
+       x1="689.37439"
+       y1="123.72122"
+       x2="689.37439"
+       y2="207.34532"
+       id="line17-2-9-0"
+       style="stroke:#374f5a;stroke-width:3.72327852;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <polyline
+       transform="matrix(0,-34.653971,-41.355935,0,1485.4761,942.84123)"
+       points="21.612,19.000 21.112,19.250 21.612,19.500 "
+       id="polyline19-8-9-4"
+       style="fill:none;stroke:#324f5a;stroke-width:0.1;stroke-opacity:1" />
+    <text
+       x="597.55493"
+       y="174.34047"
+       font-size="0.80"
+       font-style="normal"
+       font-weight="400"
+       id="text26-0-81"
+       style="font-style:normal;font-weight:400;font-size:32.59140778px;font-family:sans;text-anchor:middle;fill:#374f5a;fill-opacity:1">
+      <tspan
+         style="font-weight:normal;font-size:20.36962891px;fill:#374f5a;fill-opacity:1"
+         id="tspan4162-8-28">Product/Service</tspan>
+    </text>
+  </g>
+  <g
+     id="frame3_4"
+     inkscape:label="#g7018">
+    <text
+       x="1070.9047"
+       y="125.84806"
+       font-size="0.80"
+       font-style="normal"
+       font-weight="400"
+       id="text26-0-9-8"
+       style="font-style:normal;font-weight:400;font-size:32.59140778px;font-family:sans;text-anchor:middle;fill:#374f5a;fill-opacity:1">
+      <tspan
+         style="font-weight:normal;font-size:20.36962891px;fill:#374f5a;fill-opacity:1"
+         id="tspan4162-8-4-4">Buyers (Customer B) and</tspan>
+    </text>
+    <text
+       id="text6722"
+       x="1067.7616"
+       y="156.94766"
+       font-size="0.80"
+       font-style="normal"
+       font-weight="400"
+       style="font-style:normal;font-weight:400;font-size:32.59140778px;font-family:sans;text-anchor:middle;fill:#374f5a;fill-opacity:1">
+      <tspan
+         id="tspan6724"
+         style="font-weight:normal;font-size:20.36962891px;fill:#374f5a;fill-opacity:1">Sellers (Customer A) are</tspan>
+    </text>
+    <text
+       id="text6726"
+       x="1065.7128"
+       y="188.04726"
+       font-size="0.80"
+       font-style="normal"
+       font-weight="400"
+       style="font-style:normal;font-weight:400;font-size:32.59140778px;font-family:sans;text-anchor:middle;fill:#374f5a;fill-opacity:1">
+      <tspan
+         id="tspan6728"
+         style="font-weight:normal;font-size:20.36962891px;fill:#374f5a;fill-opacity:1">connected on the Firm's</tspan>
+    </text>
+    <text
+       id="text6730"
+       x="1082.5515"
+       y="219.14685"
+       font-size="0.80"
+       font-style="normal"
+       font-weight="400"
+       style="font-style:normal;font-weight:400;font-size:32.59140778px;font-family:sans;text-anchor:middle;fill:#374f5a;fill-opacity:1">
+      <tspan
+         id="tspan6732"
+         style="font-weight:normal;font-size:20.36962891px;fill:#374f5a;fill-opacity:1">physical or digital platform.</tspan>
+    </text>
+    <image
+       width="83.892609"
+       height="76.3517"
+       preserveAspectRatio="none"
+       xlink:href="data:image/png;base64,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
+6QEXyV6QAAAAAElFTkSuQmCC
+"
+       id="image6974"
+       x="718.91284"
+       y="136.26756" />
+  </g>
 </svg>

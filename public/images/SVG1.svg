@@ -1,22 +1,218 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!-- Created by diasvg.py -->
-<svg width="220px" height="50px" viewbox="15.950 16.950 36.050 20.050" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-  <g id="idFirm">
-    <rect x="16.000" y="17.000" width="5.000" height="3.000" fill="#FFFFFF" stroke="none" stroke-width="0"></rect>
-    <rect x="16.000" y="17.000" width="5.000" height="3.000" fill="none" stroke="#000000" stroke-width="0.100"></rect>
-    <text x="18.500" y="18.695" fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">Firm</text>
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="903.05591"
+   height="166.63518"
+   viewbox="15.950 16.950 36.050 20.050"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="SVG1.svg">
+  <metadata
+     id="metadata32">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs30">
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="-3.6053538 : 4.8580283 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="18.135241 : 3.6463668 : 1"
+       inkscape:persp3d-origin="8.9186018 : 1.0333333 : 1"
+       id="perspective4278" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="-9.0114908 : 4.9015191 : 1"
+       inkscape:vp_y="0 : 1169.3543 : 0"
+       inkscape:vp_z="20.352327 : 4.9015191 : 1"
+       inkscape:persp3d-origin="5.6704181 : 4.2973526 : 1"
+       id="perspective4208" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="-29.598169 : 1.7798047 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="37.660468 : 0.56814323 : 1"
+       inkscape:persp3d-origin="9.1470544 : -2.0448903 : 1"
+       id="perspective4164" />
+  </defs>
+  <sodipodi:namedview
+     pagecolor="#828280"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1600"
+     inkscape:window-height="847"
+     id="namedview28"
+     showgrid="false"
+     fit-margin-top="1.7"
+     fit-margin-left="0"
+     fit-margin-right="2"
+     fit-margin-bottom="0"
+     inkscape:zoom="1.2718412"
+     inkscape:cx="445.35187"
+     inkscape:cy="82.467592"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg2">
+    <inkscape:grid
+       type="xygrid"
+       id="grid4280"
+       originx="439.48837"
+       originy="79.571933" />
+  </sodipodi:namedview>
+  <g
+     id="idFirm"
+     inkscape:label="#g4225">
+    <rect
+       x="2.2980621"
+       y="32.989403"
+       width="260.37543"
+       height="121.69556"
+       id="rect7"
+       style="fill:none;stroke:#ffffff;stroke-width:4.59612417;stroke-opacity:1" />
+    <text
+       x="122.56088"
+       y="105.37283"
+       font-size="0.80"
+       font-style="normal"
+       font-weight="400"
+       id="text9"
+       style="font-style:normal;font-weight:400;font-size:32.59140778px;font-family:sans;text-anchor:middle;fill:#ffffff">
+      <tspan
+         style="font-weight:bold;fill:#ffffff"
+         id="tspan4160">FIRM</tspan>
+    </text>
   </g>
-  <g id="idARight">
-    <line x1="21.000" y1="18.000" x2="29.726" y2="18.000" stroke="#000000" stroke-width="0.100"></line>
-    <polyline fill="none" stroke="#000000" stroke-width="0.100" points="29.338,18.250 29.838,18.000 29.338,17.750 "></polyline>
+  <g
+     id="idCustomer"
+     inkscape:label="#g4230">
+    <rect
+       x="654.58337"
+       y="32.728313"
+       width="244.43555"
+       height="122.21777"
+       id="rect24"
+       style="fill:none;stroke:#374f5a;stroke-width:4.07392597;stroke-opacity:1" />
+    <text
+       x="778.95612"
+       y="104.30125"
+       font-size="0.80"
+       font-style="normal"
+       font-weight="400"
+       id="text26"
+       style="font-style:normal;font-weight:400;font-size:32.59140778px;font-family:sans;text-anchor:middle;fill:#374f5a;fill-opacity:1">
+      <tspan
+         style="font-weight:bold;fill:#374f5a;fill-opacity:1"
+         id="tspan4162">CUSTOMER</tspan>
+    </text>
   </g>
-  <g id="idALeft">
-    <line x1="30.000" y1="19.250" x2="21.224" y2="19.250" stroke="#000000" stroke-width="0.100"></line>
-    <polyline fill="none" stroke="#000000" stroke-width="0.100" points="21.612,19.000 21.112,19.250 21.612,19.500 "></polyline>
+  <g
+     id="idALeft"
+     inkscape:label="#g4235">
+    <line
+       x1="656.09576"
+       y1="33.16785"
+       x2="297.79099"
+       y2="33.16785"
+       id="line17"
+       style="stroke:#374f5a;stroke-width:4.07909822;stroke-opacity:1" />
+    <polyline
+       transform="matrix(40.827799,0,0,40.7542,-568.73823,-751.35054)"
+       points="21.612,19.000 21.112,19.250 21.612,19.500 "
+       id="polyline19"
+       style="fill:none;stroke:#324f5a;stroke-width:0.1;stroke-opacity:1" />
+    <text
+       x="598.90472"
+       y="16.54954"
+       font-size="0.80"
+       font-style="normal"
+       font-weight="400"
+       id="text26-0"
+       style="font-style:normal;font-weight:400;font-size:32.59140778px;font-family:sans;text-anchor:middle;fill:#374f5a;fill-opacity:1">
+      <tspan
+         style="font-weight:normal;font-size:20.36962891px;fill:#374f5a;fill-opacity:1"
+         id="tspan4162-8">Payment</tspan>
+    </text>
   </g>
-  <g id="idCustomer">
-    <rect x="30.000" y="17.000" width="6.000" height="3.000" fill="#FFFFFF" stroke="none" stroke-width="0"></rect>
-    <rect x="30.000" y="17.000" width="6.000" height="3.000" fill="none" stroke="#000000" stroke-width="0.100"></rect>
-    <text x="33.000" y="18.695" fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">Customer</text>
+  <g
+     id="idARight"
+     inkscape:label="#g5420">
+    <text
+       x="369.06512"
+       y="144.28029"
+       font-size="0.80"
+       font-style="normal"
+       font-weight="400"
+       id="text9-7"
+       style="font-style:normal;font-weight:400;font-size:32.59140778px;font-family:sans;text-anchor:middle;fill:#ffffff">
+      <tspan
+         style="font-weight:normal;font-size:20.36963272px;fill:#ffffff"
+         id="tspan4160-3">Product of Service</tspan>
+    </text>
+    <line
+       x1="264.44022"
+       y1="154.63522"
+       x2="623.33826"
+       y2="154.63522"
+       id="line12"
+       style="fill:#ffffff;stroke:#ffffff;stroke-width:4.09224844;stroke-opacity:1" />
+    <polyline
+       points="29.338,18.250 29.838,18.000 29.338,17.750 "
+       id="polyline14"
+       style="fill:none;stroke:#ffffff;stroke-width:0.1;stroke-opacity:1"
+       transform="matrix(41.12973,0,0,40.716278,-599.28413,-578.25778)" />
+    <rect
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#ffffff;stroke-width:1.87011027;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect4282"
+       width="52.508316"
+       height="51.047871"
+       x="523.56201"
+       y="88.519112" />
+    <rect
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#ffffff;stroke-width:1.8881017;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect4284"
+       width="21.788002"
+       height="21.788002"
+       x="410.95685"
+       y="-219.81796"
+       transform="matrix(0.87204245,0.48943025,-0.87204245,0.48943025,0,0)" />
+    <rect
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#ffffff;stroke-width:1.85544491;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect4284-5"
+       width="21.716328"
+       height="21.11026"
+       x="643.10419"
+       y="431.68655"
+       transform="matrix(0.87107825,-0.49114425,-0.02237958,0.99974955,0,0)" />
+    <rect
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#ffffff;stroke-width:1.85544491;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect4284-5-9"
+       width="21.716328"
+       height="21.11026"
+       x="-635.19519"
+       y="-196.29985"
+       transform="matrix(-0.87107825,-0.49114425,0.02237958,0.99974955,0,0)" />
   </g>
 </svg>
